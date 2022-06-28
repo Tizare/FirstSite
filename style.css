@@ -1,0 +1,227 @@
+.container {
+	margin: 0 auto;
+	width: 1200px;
+	position: relative;
+}
+
+body {
+	background-color: #f8f8f8;
+	font-family: Comic Sans MS;
+
+}
+span {
+	margin-left: 100px;
+	font-size: 60px;
+	font-weight: bolder;
+	color: lightblue;
+}
+a:hover {
+	color: lightblue;
+}
+a:active {
+	color: lightgreen;
+}
+a {
+	color: darkblue;
+}
+header {
+	text-align: left;
+	display: flex;
+	align-items: center;
+	background-image: url(img/header.jpg);
+	background-repeat: no-repeat;
+	height: 250px;
+}
+.logo {
+	margin-left: 30px;
+}
+footer {
+	font-size: small;
+	background-image: url(img/footer.jpg);
+	background-repeat: no-repeat;
+	height: 129px;
+	text-align: right;
+	padding-right: 125px;
+	padding-top: 30px;
+}
+.menu li a {
+	text-decoration: none;
+	color: darkblue;
+	font-weight: bold;
+	font-size: medium;
+	width: 100%;
+	display: block;
+	height: 40px;
+	text-align: center;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	padding-top: 10px;
+	background: lightblue;
+}
+.menu li a:hover {
+	color: RGB(252, 221, 163);
+}
+.menu li a:active {
+	color: lightgreen;
+	background: RGB(252, 221, 163);
+}
+.menu li {
+	list-style-type: none;
+	display: inline-block;
+	width: 160px;
+	margin-top: 180px;
+
+}
+.menu li:first-child {
+	margin-left: 20px;
+}
+.mainTable td {
+	border: 1px solid darkblue;
+	padding: 5px;
+	width: 200px;
+	color: #484343;
+	font-size: 14px;
+	line-height: 16px;
+}
+.mainTable {
+	margin: auto;
+}
+.mainTable tr:first-child {
+	height: 100px;
+	font-weight: bold;
+}
+/*---страница каталога---*/
+.catalogHref {
+	width: 100%;
+	display: block;
+	height: 40px;
+	width: 170px;
+	text-align: center;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	padding-top: 10px;
+	background: lightblue;
+	margin: auto;
+	text-decoration: none;
+}
+.catalogHref:hover {
+	color:  RGB(252, 221, 163);
+}
+.catGood_Pictures {
+	display: flex;
+
+}
+.catGood img {
+	margin: auto;
+	outline: 3px solid lightblue;
+}
+.catGood img:hover {
+	outline: none;
+}
+.catGood {
+	width: 100%;
+	width: 150px;
+	display: block;
+	margin: auto;
+}
+.catGood_href {
+	display: flex;
+}
+
+/*---страница товара---*/
+#goods a img[alt] {
+	border: 5px solid #eaeaea;
+	float: left;
+	margin-right: 30px;
+}
+#goods a img:hover {
+	outline: none;
+}
+#goods .buy {
+	width: 100%;
+	display: block;
+	height: 30px;
+	width: 170px;
+	text-align: center;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	padding-top: 0px;
+	background: lightblue;
+	margin-left: 75px;
+	text-decoration: none;
+	color: darkblue;
+	position: absolute;
+	margin-top: 350px;
+}
+#goods .buy:hover {
+	color: RGB(252, 221, 163);
+}
+#goods .buy:active {
+	color: lightgreen;
+	background: RGB(252, 221, 163);
+}
+#goods p:first-letter {
+	font-size: 30px;
+	color: darkred;
+}
+#goods h3 {
+	color: black;
+	font-size: 18px;
+	font-weight: 400;
+	background-color: #eaeaea;
+	}
+#goods .short_description {
+	color: #707070;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 16px;
+}
+#list, #list + p {
+	list-style-image: url(img/list.jpg);
+	font-family: Monotype Corsiva;
+	line-height: 17px;
+	text-align: left;
+}
+*#goods .price {
+	color: #484343;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+}
+.specifications td {
+	border: 1px solid black;
+	padding: 5px;
+	width: 400px;
+	color: #484343;
+	font-size: 14px;
+	line-height: 16px;
+}
+.specifications tr:first-child {
+	font-weight: bold;
+}
+table {
+	border-collapse: collapse;
+}
+/*Контакты*/
+input, textarea {
+	background-color: RGB(252, 221, 163);
+	color: darkblue;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 18px;
+	font-family: Comic Sans MS;
+}
+.e-mail:focus {
+	background-color: lightblue;
+	color: green;
+}
+textarea {
+	text-transform: capitalize;
+}
